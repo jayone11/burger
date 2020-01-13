@@ -1,0 +1,9 @@
+<li class="d-inline-flex justify-content-between">
+	{{name}}
+
+	<button class="align-items-end change-order" data-id="{{id}}" data-neworder="{{devoured}}">
+		{{#if devoured}}Reorder!{{else}}Devour It!{{/if}}
+	</button>
+
+	<button class="align-items-end delete-burger" data-id="{{this.id}}">Remove Order</button>
+</li>
